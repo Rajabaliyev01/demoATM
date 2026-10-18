@@ -134,7 +134,7 @@ public class MiniATM {
 
     public static void smsSettingUz() {
         System.out.print("Telefon raqamingizni kiriting:");
-        String phoneNumber = input.nextLine();
+        String phoneNumber = input.next();
 
         System.out.println("""
         SMS xabar ulash/o'chirish
